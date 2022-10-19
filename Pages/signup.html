@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Booth Tech</title>
+
+ 
+  <link href="../style.css" rel="stylesheet" type="text/css">
+  <script src="../script.js"></script>
+
+  </head>
+
+<body>
+<div id="Page">
+
+
+<div id="Container">
+
+<form action="sendEmail.php" method="POST">
+
+<div id="Title">
+<center><h1>Sign Up Form</h1> </center>
+</div>
+
+<div id="changePage">
+<label>These buttons will change this page!</label>
+
+<button type="button" onClick="ChangeColour()">Change text colour</button>
+
+<button type="button" onClick="changeBackground()">Change the background colour</button>
+
+
+
+
+
+<div>
+<label>FirstName:</label>
+<input type="text" placeholder="Type here" name="FirstName">
+</div>
+
+<div>
+<label>Surname:</label>
+<input type="password" placeholder="Password" name="Surname">
+</div>
+
+<div>
+<label>Date of Birth:</label>
+<input type="date" name="DOB">
+</div>
+  
+<div>
+<label>Phone Number:</label>
+<input type="number" name="Phonenumber">
+</div>
+
+<div>
+<label>Address:</label>
+<textarea name="Address" placeholder="Please enter your address on seperate lines">
+</textarea>
+</div>
+
+<div>
+<label>Please select your gender: </label>
+Male: <input type="radio" value="male" name="gender" placeholder="Male">
+Female: <input type="radio" value="female" name="gender" placeholder="Female">
+Other: <input type="radio" value="other" name="gender" placeholder="Other">
+</div>
+
+<div>
+<label>Sign up to our newsletter:</label>
+<input type="checkbox" checked name="check">
+</div>
+
+<div>
+<label>Allow us to sell your information to Russia:</label>
+<input type="checkbox" checked name="Ourdata"  onClick="pushyMessage()">
+</div>
+
+<div>
+<input type="Submit">
+</div>
+
+</form>
+</body>
+</div>
+</html>

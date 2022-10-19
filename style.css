@@ -1,0 +1,8 @@
+body{background:#3fff9ca4; font-size: 16px; color:black}
+body{border:rgb(97, 95, 95) solid 30px}
+body{border-image: url(imgs/crota.jpg) 30 round}
+div{background:#3fff9ca4;padding:10px;box-sizing:border-box;border:5px dashed rgb(12, 99, 0); border-bottom:10px;}
+#header{font-family:'arial';background: rgb(0, 0, 0)}
+container{width:95%;margin:auto;max-width:1000px}
+Container{list-style-type: none;}
+
