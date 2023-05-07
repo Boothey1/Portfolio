@@ -1,9 +1,9 @@
 body {
   font-family: 'Century Gothic', sans-serif;
   text-decoration-color: white;
-  /* background: linear-gradient(135deg, rgb(239, 22, 22), #2890f1); */
-  background-image: radial-gradient(#ffffff 3%, #333333 5%);
-  background-size: 20px 20px;
+  background: linear-gradient(135deg, rgb(88, 88, 88), #252525);
+  /* background-image: radial-gradient(#ffffff 3%, #333333 5%);
+  background-size: 20px 20px; */
   color: rgb(255, 255, 255);
 
 }
@@ -64,21 +64,19 @@ nav ul li:last-child {
 
 /* CSS for Image Grid */
 
-/* .container {
+  .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-} */
+  height: auto;
+}  
 
 .image-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
-  justify-content: center;
-  /* Center align the grid horizontally */
+  justify-content: center;  
   align-items: center;
-  /* Center align the grid vertically */
 }
 
 .grid-item {
@@ -86,14 +84,11 @@ nav ul li:last-child {
 }
 
 .grid-item img {
-  width: 50%;
-  /* Adjust the size of the thumbnail image */
+  width: 50%; /* Adjust the size of the thumbnail image */
   height: auto;
   display: block;
   border: 2px solid black;
-  /* Add black border */
   padding: 5px;
-  /* Add padding for better spacing */
 }
 
 .grid-item a {
@@ -126,4 +121,26 @@ nav ul li:last-child {
   color: #fff;
   font-size: 20px;
   cursor: pointer;
+}
+
+/* CSS for video container */
+.videoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video {
+  width: 50%;
+  margin: 0 10px;
+}
+
+h2 {
+  text-align: center;
 }
