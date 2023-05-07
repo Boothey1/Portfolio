@@ -1,0 +1,61 @@
+body {
+    font-family: 'Century Gothic', sans-serif;
+    text-decoration-color: white;
+    background: linear-gradient(135deg, rgb(64, 84, 114), #202020);
+    color: rgb(255, 255, 255);
+  }
+  
+  nav {
+    background-color: rgb(34, 57, 91);
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul li {
+    margin: 0;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    text-align: center;
+    padding: 13px;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgb(103, 103, 173);
+    color: #0075d4;
+  }
+  
+  #statsTable {
+    margin: auto;
+  }
+  
+  #playerTable {
+    margin: auto;
+  }
+  
+  #itemTable {
+    margin: auto;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  thead {
+    text-align: center;
+  }
+  
+  img {
+    text-align: center;
+  }
