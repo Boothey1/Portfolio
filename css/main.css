@@ -75,20 +75,44 @@ nav ul li:last-child {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
+
+  /* new */
   justify-content: center;  
   align-items: center;
+  width: 100%;
 }
 
 .grid-item {
-  position: relative;
+  /* new */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  /* 
+  changes this for grid spacing
+  margin: top, right, bottom, left; 
+  */
+  margin: 5% 0% 5% 0%;
+
 }
 
 .grid-item img {
-  width: 50%; /* Adjust the size of the thumbnail image */
+  /* width: 50%; /* Adjust the size of the thumbnail image */
   height: auto;
   display: block;
   border: 2px solid black;
-  padding: 5px;
+  padding: 5px; 
+
+  /* new */
+  /*
+  centers and sizes the image
+  */
+  margin:auto;
+  width: 75%;
+  max-width: 100%;
+  min-width: 50px;
 }
 
 .grid-item a {
