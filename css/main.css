@@ -1,5 +1,6 @@
 body {
-  font-family: 'Century Gothic', sans-serif;
+  /* font-family: 'Century Gothic', sans-serif; */
+  font-family: 'Anuphan', sans-serif;
   text-decoration-color: white;
   background: linear-gradient(135deg, rgb(88, 88, 88), #252525);
   /* background-image: radial-gradient(#ffffff 3%, #333333 5%);
@@ -22,12 +23,14 @@ nav ul {
   justify-content: space-between;
   padding: 0;
   list-style-type: none;
+  font-family: 'Anuphan', sans-serif;
 }
 
 nav ul li {
   margin: 20;
   display: inline-block;
   margin-right: 20px;
+  font-family: 'Anuphan', sans-serif;
 }
 
 nav ul li a {
@@ -47,6 +50,7 @@ nav ul li a:hover {
 
 p {
   text-align: center;
+  font-family: 'Anuphan', sans-serif;
 }
 
 img {
@@ -56,10 +60,12 @@ img {
 #links {
   max-width: 500px;
   margin: 0 auto;
+  font-family: 'Anuphan', sans-serif;
 }
 
 nav ul li:last-child {
   margin-right: 0;
+  font-family: 'Anuphan', sans-serif;
 }
 
 /* CSS for Image Grid */
@@ -167,4 +173,63 @@ nav ul li:last-child {
 
 h2 {
   text-align: center;
+  font-family: 'Anuphan', sans-serif;
+}
+
+footer {
+  width: 100%;
+  padding: 20px 0;  
+  text-align: center;
+  width: 60%; 
+  margin: 20px auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-family: 'Anuphan', sans-serif;
+}
+
+.socials a {
+  margin: 0 10px;
+  color: inherit;
+  text-decoration: none;
+  
+}
+
+.socials i {
+  font-size: 1.5em;
+}
+
+.about-me {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Anuphan', sans-serif;
+}
+
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name {
+  margin-top: 10px;
+  font-family: 'Anuphan', sans-serif;
+}
+
+.about-text {
+  margin-top: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: transparent;
+  font-family: 'Anuphan', sans-serif;
+  width: 60%; 
+  margin: 20px auto; 
 }
