@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/wheel.css" type="text/css" />
+    <title>Name Picker Wheel</title>
+</head>
+<body>
+    <div class="picker-container">
+        <div class="picker" id="picker">
+            <!-- Use JavaScript to generate legend names -->
+        </div>
+        <button onclick="spinWheel()">Spin</button>
+    </div>
+    <script src="wheel.js"></script>
+    <script>
+        var legends = ["Bangalore", "Fuse", "Ash", "Mad Maggie", "Ballistic", "Pathfinder", "Wraith", "Octane", "Revenant", "Horizon", "Valkyrie", "Bloodhound", "Crypto", "Seer", "Vantage", "Catalyst", "Caustic", "Rampart", "Wattson", "Conduit", "Gibraltar", "Lifeline", "Loba", "Mirage", "Newcastle"];
+
+        // Dynamically generate legend names
+        let picker = document.getElementById('picker');
+        legends.forEach(legend => {
+            let nameElement = document.createElement('div');
+            nameElement.classList.add('name');
+            nameElement.textContent = legend;
+            picker.appendChild(nameElement);
+        });
+    </script>
+</body>
+</html>
