@@ -12,6 +12,7 @@ body {
 /* CSS for Navigation Bar */
 
 nav {
+  margin-top: 75px;
   background-color: rgb(31, 31, 31);
 }
 
@@ -81,15 +82,13 @@ nav ul li:last-child {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
-
-  /* new */
   justify-content: center;  
   align-items: center;
   width: 100%;
 }
 
 .grid-item {
-  /* new */
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -108,7 +107,8 @@ nav ul li:last-child {
   /* width: 50%; /* Adjust the size of the thumbnail image */
   height: auto;
   display: block;
-  border: 2px solid black;
+  /* border: 2px solid black; */
+  
   padding: 5px; 
 
   /* new */
@@ -216,6 +216,7 @@ footer {
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
+  border: 4px solid #ffffff;
 }
 
 .name {
@@ -232,4 +233,49 @@ footer {
   font-family: 'Anuphan', sans-serif;
   width: 60%; 
   margin: 20px auto; 
+}
+
+
+/* The custom shape divider at the top */
+.custom-shape-divider-top-1713986333 {
+  /* margin-top: 64px; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1713986333 svg {
+  position: relative;
+  display: block;
+  width: calc(153% + 1.3px);
+  height: 113px;
+}
+
+.custom-shape-divider-top-1713986333 .shape-fill {
+  fill: #FFFFFF;
+}
+
+/* The custom shape divider at the bottom */
+.custom-shape-divider-bottom-1713986674 {  
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1713986674 svg { 
+  position: relative;
+  display: block;
+  width: calc(156% + 1.3px);
+  height: 129px;
+}
+
+.custom-shape-divider-bottom-1713986674 .shape-fill {
+  fill: #FFFFFF;
 }
