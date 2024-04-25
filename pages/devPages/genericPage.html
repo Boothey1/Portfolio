@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Anuphan&family=Jacquard+12+Charted&family=Montserrat:wght@600&display=swap" rel="stylesheet">
 
@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Joshua Booth Portfolio</title>
   <link rel="icon" type="image/x-icon" href="/images/favicon/favicon.ico">
-  <link rel="stylesheet" href="css/main.css" type="text/css" />
+  <link rel="stylesheet" href="/css/main.css" type="text/css" />
 </head>
 
 <div class="custom-shape-divider-top-1713986333">
@@ -26,60 +26,54 @@
   <div id="links">
     <nav>
       <ul>
-        <li><a href="pages/developerPortfolio.html">Developer Portfolio</a></li>
-        <li><a href="pages/graphicsPortfolio.html">Graphics Design Portfolio</a></li>
+        <li><a href="/index.html">About</a></li>
+        <li><a href="../developerPortfolio.html">Developer Portfolio</a></li>
       </ul>
     </nav>
   </div>
-  
-  <h1 style="font-size:500%; text-align:center">Joshua Booth Portfolio</h1>
-  <p style="font-size:150%; text-align:center">About me</p>
+
+  <h1 style="font-size:500%; text-align:center">Generic Empty Item</h1>
+
+  <!-- Text box desc-->
+  <div class="text-box">
+    <p>Text Here</p>
+</div>
 
 
-  <section class="about-me">
-    <div class="profile-image">
-        <img src="./images/IMG_8807.jpg" alt="Joshua Booth">
+<div class="image-slider">
+    <button class="arrow left-arrow">←</button>
+    <img src="/images/fullImages/abramgamespracticalresponse.png" class="slider-image active" alt="Image description">
+    <img src="/images/fullImages/Attikps.jpg" class="slider-image" alt="Image description">
+    <img src="/images/fullImages/brazilposter.png" class="slider-image" alt="Image description">
+    <!-- add more img -->
+    <button class="arrow right-arrow">→</button>
+
+    <div class="dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <!-- add more dots -->
     </div>
-    <h3 class="name">Joshua A Booth</h3>
-    <div class="about-text">
-        <p>
-          Hello there! I'm Joshua Booth, a passionate computer science student specializing in software engineering for games development and currently pursuing my master's degree at the University of Hull.
-          
-          My latest project is a collaborative development project as part of my master's degree. In collaboration with ORE Catapult, a leading player in renewable energy innovation, my team and I are creating a VR training software using Unity for the PICO Neo 3.
-          
-          This project is more than just coding; it's a real-world immersion into commercial development practices. From implementing AGILE and PRINCE2 project management techniques to engaging in regular communication and progress updates with our client, we are blending academics with practical industry experience. During this project I have had the opportunity to collaborate with industry experts from Lampada Digital Solutions Limited gaining valuable insight from their industry experience.
-          </p>
-    </div>
-</section>
-
-<script src="./js/tooltip.js"></script>
-<section class="skills">
-  <div class="skills-images">
-      <img src="./images/skills-svg/c++.svg" data-tooltip="C++">
-      <img src="./images/skills-svg/Csharp.svg" data-tooltip="C#">
-      <img src="./images/skills-svg/microsoft-directx.svg" data-tooltip="DirectX 11">
-      <img src="./images/skills-svg/opengl-svgrepo-com.svg" data-tooltip="Open GL">
-      <img src="./images/skills-svg/unity-69.svg" data-tooltip="Unity">
-      <img src="./images/skills-svg/nodejs-logo-svgrepo-com.svg" data-tooltip="Node.js">
-      <img src="./images/skills-svg/expressjs-icon.svg" data-tooltip="Express.js">   
-      <img src="./images/skills-svg/rest-api-icon.svg" data-tooltip="REST API"> 
-      <img src="./images/skills-svg/html-5-logo-svgrepo-com.svg" data-tooltip="HTML-5">  
-      <img src="./images/skills-svg/css-3-logo-svgrepo-com.svg" data-tooltip="CSS-3">   
-      <!-- Add more skills here -->
-  </div>  
-</section>
+</div>
 
 
-<footer>
+
+
+<!-- Demo video-->
+<div class="video-section">
+    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+  <footer>
     <hr>
     <div class="footer-content">
         <div class="copyright">
             ©2024 joshuabooth.co.uk
         </div>
         <div class="socials">
-            <a href="https://github.com/Boothey1"><img src="./images/svg/github.svg"></a>
-            <a href="https://www.linkedin.com/in/boothjoshua/"><img src="./images/svg/linkedin.svg"></a>
-            <a href="https://twitter.com/home"><img src="./images/svg/x-2.svg"></a>
+            <a href="https://github.com/Boothey1"><img src="/images/svg/github.svg"></a>
+            <a href="https://www.linkedin.com/in/boothjoshua/"><img src="/images/svg/linkedin.svg"></a>
+            <a href="https://twitter.com/home"><img src="/images/svg/x-2.svg"></a>
             <a href="https://www.youtube.com/"><img src="/images/svg/youtube-color.svg"></a>
         </div>
     </div>
@@ -94,5 +88,7 @@
 </div>
 
 </body>
+
+<script src="/js/imageslider.js"></script>
 
 </html>

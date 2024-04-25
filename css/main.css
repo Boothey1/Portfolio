@@ -1,5 +1,6 @@
 body {
-  font-family: 'Century Gothic', sans-serif;
+  /* font-family: 'Century Gothic', sans-serif; */
+  font-family: 'Anuphan', sans-serif;
   text-decoration-color: white;
   background: linear-gradient(135deg, rgb(88, 88, 88), #252525);
   /* background-image: radial-gradient(#ffffff 3%, #333333 5%);
@@ -11,6 +12,7 @@ body {
 /* CSS for Navigation Bar */
 
 nav {
+  margin-top: 90px;
   background-color: rgb(31, 31, 31);
 }
 
@@ -22,12 +24,14 @@ nav ul {
   justify-content: space-between;
   padding: 0;
   list-style-type: none;
+  font-family: 'Anuphan', sans-serif;
 }
 
 nav ul li {
   margin: 20;
   display: inline-block;
   margin-right: 20px;
+  font-family: 'Anuphan', sans-serif;
 }
 
 nav ul li a {
@@ -47,6 +51,7 @@ nav ul li a:hover {
 
 p {
   text-align: center;
+  font-family: 'Anuphan', sans-serif;
 }
 
 img {
@@ -56,10 +61,12 @@ img {
 #links {
   max-width: 500px;
   margin: 0 auto;
+  font-family: 'Anuphan', sans-serif;
 }
 
 nav ul li:last-child {
   margin-right: 0;
+  font-family: 'Anuphan', sans-serif;
 }
 
 /* CSS for Image Grid */
@@ -75,15 +82,13 @@ nav ul li:last-child {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
-
-  /* new */
   justify-content: center;  
   align-items: center;
   width: 100%;
 }
 
 .grid-item {
-  /* new */
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -102,7 +107,8 @@ nav ul li:last-child {
   /* width: 50%; /* Adjust the size of the thumbnail image */
   height: auto;
   display: block;
-  border: 2px solid black;
+  /* border: 2px solid black; */
+  
   padding: 5px; 
 
   /* new */
@@ -167,4 +173,328 @@ nav ul li:last-child {
 
 h2 {
   text-align: center;
+  font-family: 'Anuphan', sans-serif;
+}
+
+footer {
+  width: 100%;
+  padding: 20px 0;  
+  text-align: center;
+  width: 60%; 
+  margin: 20px auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-family: 'Anuphan', sans-serif;
+}
+
+.socials a {
+  margin: 0 10px;
+  color: inherit;
+  text-decoration: none;
+  
+}
+
+.socials i {
+  font-size: 1.5em;
+}
+
+.about-me {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Anuphan', sans-serif;
+}
+
+.profile-image img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #ffffff;
+}
+
+.name {
+  margin-top: 10px;
+  font-family: 'Anuphan', sans-serif;
+}
+
+.about-text {
+  margin-top: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: transparent;
+  font-family: 'Anuphan', sans-serif;
+  width: 60%; 
+  margin: 20px auto; 
+}
+
+
+/* The custom shape divider at the top */
+/* https://www.shapedivider.app/ */
+.custom-shape-divider-top-1713986333 {
+  /* margin-top: 64px; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1713986333 svg {
+  position: relative;
+  display: block;
+  width: calc(153% + 1.3px);
+  height: 113px;
+}
+
+.custom-shape-divider-top-1713986333 .shape-fill {
+  fill: #FFFFFF;
+}
+
+/* The custom shape divider at the bottom */
+.custom-shape-divider-bottom-1713986674 {  
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1713986674 svg { 
+  position: relative;
+  display: block;
+  width: calc(156% + 1.3px);
+  height: 129px;
+}
+
+.custom-shape-divider-bottom-1713986674 .shape-fill {
+  fill: #FFFFFF;
+}
+
+
+
+.skills {
+  text-align: center;
+  padding: 20px;
+}
+
+.skills-images {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #fc0000;
+  width: 45%; 
+  margin: 20px auto; 
+  flex-wrap: wrap;
+}
+
+.skills-images img {
+  width: 50px; 
+  height: 50px; 
+}
+
+.skills-text {
+  margin-top: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: transparent;
+  width: 60%; 
+  margin: 20px auto; 
+}
+
+.skills-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.skills-item {
+  margin-bottom: 10px;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  /* visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s; */
+}
+
+.tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+
+
+
+
+.blog-post {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  margin: 20px;
+  width: 60%; 
+  margin: 20px auto; 
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: rgb(31, 31, 31)  
+}
+.post-image {
+  /* width: 200px; */
+  width: 30%;
+  margin-right: 20px;
+}
+.content-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.post-title {
+  font-size: 24px;
+  text-align: center;
+}
+.post-body {
+  text-align: left;
+}
+.profile-readmore-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.profile img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.read-more {
+  text-decoration: none;
+  color: #007bff;
+}
+
+
+
+
+.text-box {
+  background-color: rgb(31, 31, 31);
+  border-radius: 25px;
+  color: white;
+  padding: 20px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 60%;
+  margin-top: 20px;  
+  border-radius: 15px;
+  padding: 20px; 
+  font-family: 'Anuphan', sans-serif;
+  width: 60%; 
+  margin: 20px auto; 
+}
+
+.video-section {
+  width: 100%;
+  height: 500px;
+}
+
+
+.slider-image {
+  display: none;
+}
+
+.slider-image.active {
+  display: block;
+}
+
+
+.image-slider {
+  position: relative;
+  width: 60%; 
+  height: 40%; 
+  border: 5px solid white;
+  border-radius: 10px; 
+  overflow: hidden;
+  flex-wrap: wrap;
+  justify-content: center;    
+  margin: 20px auto;
+}
+
+.image-slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.left-arrow {
+  left: 10px;
+}
+
+.right-arrow {
+  right: 10px;
+}
+
+.dots {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot.active {
+  background-color: rgb(0, 149, 255);
 }
