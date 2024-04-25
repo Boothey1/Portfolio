@@ -297,7 +297,7 @@ footer {
   padding: 20px;
   background-color: #ffffff;
   color: #fc0000;
-  width: 75%; 
+  width: 60%; 
   margin: 20px auto; 
 }
 
@@ -324,3 +324,27 @@ footer {
 .skills-item {
   margin-bottom: 10px;
 }
+
+.tooltip {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  /* visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s; */
+}
+
+.tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
