@@ -291,14 +291,15 @@ footer {
 .skills-images {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
   border: 2px solid #ffffff;
   border-radius: 15px;
   padding: 20px;
   background-color: #ffffff;
   color: #fc0000;
-  width: 60%; 
+  width: 45%; 
   margin: 20px auto; 
+  flex-wrap: wrap;
 }
 
 .skills-images img {
