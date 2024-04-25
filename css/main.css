@@ -383,6 +383,11 @@ footer {
 .post-body {
   text-align: left;
 }
+.profile-readmore-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .profile {
   display: flex;
   align-items: center;
@@ -394,5 +399,4 @@ footer {
 .read-more {
   text-decoration: none;
   color: #007bff;
-  align-self: flex-end;  
 }
